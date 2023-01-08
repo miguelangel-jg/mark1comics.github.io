@@ -1,0 +1,45 @@
+body {
+    background-image: url(images/DCwall.png);
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+header{
+    margin-top: -10px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: yellow;
+}
+
+main{
+    padding-top: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+main img{
+    padding-top: 50px;
+}
+footer {
+    margin-top: 20px;
+    width: 1500px;
+    background-color: orangered;
+    padding: 5%;
+}

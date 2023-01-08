@@ -1,0 +1,62 @@
+body {
+    background-color: blue;
+}
+
+header{
+    margin-top: -10px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: yellow;
+}
+main{
+    color: white;
+    margin: 50px;
+}
+main a{
+    color: red;
+}
+main a:hover {
+    color: white;
+}
+
+#fase1 {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+}
+#fase1 img{
+    padding-top: 50px;
+}
+
+#fase2 {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+}
+#fase2 img{
+    padding-top: 50px;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: orangered;
+    padding: 5%;
+}

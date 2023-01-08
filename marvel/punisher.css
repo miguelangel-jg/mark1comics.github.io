@@ -1,0 +1,41 @@
+body {
+    background-image: url(../images/punisherwall.jpg);
+}
+
+header{
+    margin-top: -10px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: yellow;
+}
+main{
+    padding-top: 50px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main img{
+    padding-top: 40px;
+}
+footer{
+    margin-top: 20px;
+    background-color: orangered;
+    padding: 5%;
+    width: 1500px;
+}
