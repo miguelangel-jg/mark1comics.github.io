@@ -1,5 +1,7 @@
+@media screen and (max-width: 1300px) {
+}
 body {
-    background-color: blue;
+    background-color: rgb(56, 179, 236);
 }
 
 header{
@@ -22,7 +24,24 @@ nav a{
 nav a:hover{
     color: yellow;
 }
+label{
+    background-color: rgba( 0, 0, 0, 0.70);
+    margin-top: 20px;
+    display: flex;
+    width: 290px;
+    height: 20px;
+}
+label a{
+    color: red;
+    background-size: 10px;
+}
 main{
+    background-image: url(../images/vengadoresfondo.jpg);
+    margin: 50px;
+    background-position: top;
+    background-size: 85px;
+    margin-left: 10px;
+    margin-right: 10px;
     color: white;
     margin: 50px;
 }
@@ -34,9 +53,18 @@ main a:hover {
 }
 ul {
     list-style: circle;
+    background-color: rgba( 0, 0, 0, 0.7);
+    background-size: 100px;
+    width: 200px;
+    margin:10px;
 }
 ul li{
     margin-top: 10px;
+    color: white
+    ;
+}
+ul li a{
+    color: red;
 }
 #fase1 {
     padding-top: 50px;
