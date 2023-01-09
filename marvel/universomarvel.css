@@ -32,7 +32,12 @@ main a{
 main a:hover {
     color: white;
 }
-
+ul {
+    list-style: circle;
+}
+ul li{
+    margin-top: 10px;
+}
 #fase1 {
     padding-top: 50px;
     display: flex;
