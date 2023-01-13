@@ -93,3 +93,5 @@ footer{
     background-color: orangered;
     padding: 5%;
 }
+@media screen and (max-width: 1300px) {
+}
