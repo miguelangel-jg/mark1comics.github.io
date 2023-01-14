@@ -22,7 +22,7 @@ nav a{
     text-decoration: none;
 }
 nav a:hover{
-    color: yellow;
+    color: blue;
 }
 label{
     background-color: rgba( 0, 0, 0, 0.70);
@@ -93,5 +93,28 @@ footer{
     background-color: orangered;
     padding: 5%;
 }
-@media screen and (max-width: 1300px) {
+
+@media screen and (max-width: 800px) {
+    header{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    header img{
+        height: 100px;
+        width: 150px;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-width: 500px) {
+    nav{
+        flex-direction: column;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    nav a{
+        padding-bottom: 5px;
+    }
+    #fase2{
+        margin-top: 20px;
+    }
 }

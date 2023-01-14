@@ -45,5 +45,24 @@ footer{
     -o-background-size: cover;
     padding: 5%;
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 800px) {
+    header{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    header img{
+        height: 100px;
+        width: 140px;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-width: 500px) {
+    nav{
+        flex-direction: column;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    nav a{
+        padding-bottom: 5px;
+    }
 }
