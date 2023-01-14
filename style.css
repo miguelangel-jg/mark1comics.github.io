@@ -14,12 +14,11 @@ header img{
 }
 
 nav{
-    margin-top: -20px;
-    height: 10px;
     background-color: black;
     padding: 20px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 nav a{
     color: white;
@@ -71,6 +70,10 @@ button a{
         height: 100px;
         width: 140px;
         padding-bottom: 10px;
+    }
+    main{
+       flex-direction: column;
+       padding-bottom: 30px;
     }
 }
 @media screen and (max-width: 500px) {
