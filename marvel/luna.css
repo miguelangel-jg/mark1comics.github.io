@@ -38,12 +38,12 @@ main img{
 }
 footer{
     margin-top: 20px;
-    background-image: url(../images/footerback.jpg);
-    background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 25px;
+    color: white;
+}
+footer a{
+    color: red;
 }
 @media screen and (max-width: 800px) {
     header{

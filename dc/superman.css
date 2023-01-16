@@ -1,7 +1,7 @@
+
 body {
-    background-color: black;
-    width: 100%;
-} 
+    background-color: rgb(44, 88, 219);
+}
 
 header{
     margin-top: -10px;
@@ -9,59 +9,40 @@ header{
     display: flex;
     justify-content: space-between;
 }
-
 nav{
-    background-color: red;
+    background-color: black;
     padding: 20px;
     display: flex;
     justify-content: space-around;
 }
 
 nav a{
-    color: yellow;
+    color: white;
     text-decoration: none;
 }
 nav a:hover{
-    color: white;
-}
-main{
-    color: white;
-    margin: 50px;
-    background-image: url(../images/Daredevil\ 4.png);
-    background-position: top;
-    background-size: 85px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-main button {
-    justify-content: space-around;
-    width: 290px;
-}
-button{
-    margin: 50px;
-    background-color: red;    
-    height: 50px;
-    width: 300px;
-    font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-button a{
     color: yellow;
-    text-decoration: none;
 }
-#enlaces {
-    margin-top: -50px;
+
+main{
+    background-image: url(../images/superfondo.png);
+    background-position: top;
+    background-size: 81px;
     padding-top: 50px;
+    background-color: white;
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    color: white;
+    padding-bottom: 30px;
 }
-#enlaces img{
-    padding-top: 70px;
-    margin-bottom: 24px;
+main a{
+    color: red;
+    text-decoration: none;
 }
-
+main img{
+    padding-top: 50px;
+}
 footer{
     margin-top: 20px;
     background-color: rgba(0, 0, 0, 0.75);
@@ -92,3 +73,4 @@ footer a{
         padding-bottom: 5px;
     }
 }
+
