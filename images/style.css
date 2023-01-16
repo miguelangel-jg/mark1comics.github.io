@@ -1,0 +1,88 @@
+body {
+    background-image: url(images/marvelwall.jpg);
+    width: 100%;
+}
+
+header{
+    margin-top: -10px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+header img{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: yellow;
+}
+
+main{
+    margin-top: 10px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+}
+aside{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+}
+footer{
+    margin-top: 20px;
+    background-color: dimgrey;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    flex-wrap: wrap;
+}
+button{
+    height: 20px;
+    width: 1000px;
+    background-color: dimgrey;
+    border: none;
+    padding: 20px;
+}
+button a{
+    color: black;
+    text-decoration: none;
+}
+@media screen and (max-width: 800px) {
+    header{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    header img{
+        height: 100px;
+        width: 140px;
+        padding-bottom: 10px;
+    }
+    main{
+       flex-direction: column;
+       padding-bottom: 30px;
+    }
+}
+@media screen and (max-width: 500px) {
+    nav{
+        flex-direction: column;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    nav a{
+        padding-bottom: 5px;
+    }
+}
