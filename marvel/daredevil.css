@@ -11,7 +11,7 @@ header{
 }
 
 nav{
-    background-color: red;
+    background-color: rgba(187, 8, 8, 0.897);
     padding: 20px;
     display: flex;
     justify-content: space-around;
@@ -27,9 +27,9 @@ nav a:hover{
 main{
     color: white;
     margin: 50px;
-    background-image: url(../images/Daredevil\ 4.png);
+    background-image: url(../images/Daredevilfondo.png);
     background-position: top;
-    background-size: 85px;
+    background-size: 152px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -39,7 +39,7 @@ main button {
 }
 button{
     margin: 50px;
-    background-color: red;    
+    background-color: rgba(187, 8, 8, 0.897);  
     height: 50px;
     width: 300px;
     font-size: 20px;
@@ -83,6 +83,11 @@ footer a{
     }
 }
 @media screen and (max-width: 500px) {
+    header{
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
     nav{
         flex-direction: column;
         padding-bottom: 10px;
