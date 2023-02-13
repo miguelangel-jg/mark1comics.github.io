@@ -36,6 +36,10 @@ main{
 main img{
     padding-top: 40px;
 }
+main img:hover{
+    transform: scale(1.09);
+    transition: all .5s;
+}
 footer{
     margin-top: 20px;
     background-color: rgba(0, 0, 0, 0.75);

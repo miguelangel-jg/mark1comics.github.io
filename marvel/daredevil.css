@@ -61,6 +61,10 @@ button a{
     padding-top: 70px;
     margin-bottom: 24px;
 }
+#enlaces img:hover {
+    transform: scale(1.09);
+    transition: all .5s;
+}
 
 footer{
     margin-top: 20px;
