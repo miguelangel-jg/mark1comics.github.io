@@ -9,6 +9,10 @@ header{
     display: flex;
     justify-content: space-between;
 }
+header img:hover{
+    transform: scale(1.25);
+    transition: all .5s;
+}
 nav{
     background-color: black;
     padding: 20px;

@@ -10,6 +10,11 @@ header{
     display: flex;
     justify-content: space-between;
 }
+header img:hover{
+    transform: scale(1.25);
+    transition: all .5s;
+}
+
 nav{
     background-color: black;
     padding: 20px;
@@ -62,8 +67,8 @@ main a:hover {
     color: white;
 }
 main img:hover{
-    transform: scale(1.09);
-    transition: all .5s;
+    transform: scale(1.5);
+    transition: .5s;
 }
 ul {
     list-style: circle;

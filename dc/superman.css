@@ -9,6 +9,10 @@ header{
     display: flex;
     justify-content: space-between;
 }
+header img:hover{
+    transform: scale(1.09);
+    transition: all .5s;
+}
 nav{
     background-color: black;
     padding: 20px;
@@ -42,6 +46,11 @@ main a{
 }
 main img{
     padding-top: 50px;
+}
+main img:hover{
+    padding-top: 50px;
+    transform: scale(1.09);
+    transition: all .5s;
 }
 footer{
     margin-top: 20px;

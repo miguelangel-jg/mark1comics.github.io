@@ -10,6 +10,11 @@ header{
     display: flex;
     justify-content: space-between;
 }
+header img:hover{
+    transform: scale(1.25);
+    transition: all .5s;
+}
+
 nav{
     background-color: black;
     padding: 20px;
@@ -23,6 +28,8 @@ nav a{
 }
 nav a:hover{
     color: yellow;
+    transform: scale(1.5);
+    transition: .5s;
 }
 
 main{
