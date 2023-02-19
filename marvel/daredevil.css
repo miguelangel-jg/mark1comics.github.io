@@ -64,12 +64,12 @@ button a{
     color: white;
 }
 #enlaces img{
-    padding-top: 70px;
-    margin-bottom: 24px;
+    margin-bottom: 60px;
 }
 #enlaces img:hover {
     transform: scale(1.09);
     transition: all .5s;
+    box-shadow: 2px  2px 40px yellow;
 }
 
 footer{

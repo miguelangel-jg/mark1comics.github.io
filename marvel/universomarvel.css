@@ -69,6 +69,10 @@ main a:hover {
 main img:hover{
     transform: scale(1.5);
     transition: .5s;
+    box-shadow: 2px  2px 40px yellow;
+}
+main img{
+    margin-bottom: 60px;
 }
 ul {
     list-style: circle;
