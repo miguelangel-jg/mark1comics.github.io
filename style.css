@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-image: url(images/marvelwall.jpg);
     width: 100%;
@@ -36,22 +42,24 @@ nav a:hover{
     transition: .5s;
 }
 
-#contenedor{
+section a{
     display: flex;
-    flex-wrap: wrap;
+    width: 600px;
+    height: 430px;
 }
-main{
-    flex: 60%;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    margin-right: z;
+section  a img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
 }
-aside{
-    flex: 20%;;
-    background-color: rgba(3, 4, 456,20.5);
-    padding: 20px;
+section a img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
 }
-
 @media screen and (max-width: 900px) {
     header{
         flex-direction: row;

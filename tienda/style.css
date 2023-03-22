@@ -1,0 +1,86 @@
+/* Características globales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body*/
+body{
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+/* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px 40px 0px;
+}
+/* icono */
+header img{
+    width: 40px;
+    stroke: black;
+}
+
+/* Main */
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+/* Borde redondeado a los productos */
+.producto{
+    border-radius: 10px;
+}
+
+/* Sombra al seleccionar el producto */
+.producto:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+.producto img{
+    width: 100%;
+    height: 150px;
+    /* Para que la imagen sea ajustable*/
+    object-fit: cover;
+    /* Borde redondeado arriba tanto izquierda como derecha*/
+    border-radius: 10px 10px 0 0;
+    /* Duracion de la transformación*/
+    transition: all .5s;
+}
+
+/* Esto es para que la imagen no se salga de la tarjeta*/
+figure{
+    overflow: hidden;
+}
+
+/* Animacion al pasar por encima del producto */
+.producto:hover img{
+    transform: scale(1.2);
+}
+
+/* Paddin para el nombre y el boton de cada tarjeta */
+.info{
+    /* El primer numero es arriba/abajo y el segundo izq/dcha */
+    padding: 15px 30px;
+    /* Espacio entre una linea y otra */
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Botones */
+.info button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+

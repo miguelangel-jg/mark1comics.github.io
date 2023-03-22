@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     background-image: url(images/Marvel-Wallpapers-1.jpg);
@@ -70,6 +75,10 @@ footer a{
     }
 }
 @media screen and (max-width: 500px) {
+    header{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
     nav{
         flex-direction: column;
         padding-bottom: 10px;
@@ -77,5 +86,10 @@ footer a{
     }
     nav a{
         padding-bottom: 5px;
+    }
+    nav a:hover{
+        color: yellow;
+        transform: scaleY(1.5);
+        transition: .5s;
     }
 }
