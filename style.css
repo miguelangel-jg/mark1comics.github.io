@@ -26,6 +26,7 @@ header img:hover{
 
 
 nav{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: black;
     padding: 20px;
     display: flex;
@@ -41,24 +42,17 @@ nav a:hover{
     transform: scale(1.5);
     transition: .5s;
 }
-
-section a{
+main{
     display: flex;
-    width: 600px;
-    height: 430px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
 }
-section  a img{
-    width: 0px;
-    flex-grow: 1;
-    object-fit: cover;
-    opacity: .8;
-    transition: .5s ease;
+main div{
+    padding: 10px;
 }
-section a img:hover{
-    cursor: crosshair;
-    width: 300px;
-    opacity: 1;
-    filter: contrast(120%);
+main img{
+    max-width: 500px;
 }
 @media screen and (max-width: 900px) {
     header{
